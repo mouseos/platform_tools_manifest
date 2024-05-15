@@ -45,5 +45,12 @@
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" remote="aosp" />
-  
+
+  <!-- Additional Projects for missing files -->
+  <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" remote="aosp" />
+  <project path="system/core/fastboot" name="LineageOS/android_system_core_fastboot" remote="aosp" />
+  <project path="tools/asuite" name="LineageOS/android_tools_asuite" remote="aosp" />
+  <project path="prebuilts/bazel/common" name="LineageOS/android_prebuilts_bazel_common" remote="aosp" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="github" />
+
 </manifest>
